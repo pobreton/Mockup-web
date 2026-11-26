@@ -1,0 +1,156 @@
+/* 1. Estilos generales de la pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FDFCEB;
+    color: #391E10;
+}
+
+/* Encabezado (Header) */
+header {
+    background-color: #391E10;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #C7A07A;
+}
+
+header h1 {
+    margin: 0;
+    color: #FDFCEB;
+}
+
+/* 3. Menú de navegación */
+nav {
+    background-color: #734128;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FDFCEB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #E2CEB1;
+    text-decoration: underline;
+}
+
+/* 4. Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* 5. Sección principal (columna ancha) */
+.contenedor section {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #E2CEB1;
+}
+
+.contenedor section h2 {
+    color: #734128;
+    border-bottom: 2px solid #C7A07A;
+    padding-bottom: 4px;
+}
+
+/* 6. Aside (columna angosta, contenido secundario) */
+.contenedor aside {
+    flex: 1;
+    background-color: #E2CEB1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contenedor aside h2 {
+    color: #391E10;
+}
+
+/* 7. Artículos dentro de la sección */
+article {
+    margin-bottom: 20px;
+}
+
+/* 8. Imágenes: que nunca se salgan de su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 9. Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #C7A07A;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #734128;
+    color: #FDFCEB;
+}
+
+/* 10. Formulario de contacto */
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 5px;
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid #C7A07A;
+}
+
+form input[type="submit"] {
+    background-color: #734128;
+    color: #FDFCEB;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #391E10;
+}
+
+/* 11. Pie de página (footer) */
+footer {
+    background-color: #391E10;
+    color: #FDFCEB;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #C7A07A;
+}
+
+footer a {
+    color: #E2CEB1;
+}
+```[cite: 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+*(Nota: solo recuerda poner tus archivos de imagen en la carpeta o cambiar los nombres `logo-cafe.png`, `cafe-del-dia.png` y `rincon-del-alba.png` por el nombre exacto de las imágenes que tengas).*
